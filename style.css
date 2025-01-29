@@ -1,0 +1,64 @@
+/* style.css */
+
+/* Basic form container styling */
+form {
+    width: 300px; /* Adjust as needed */
+    margin: 0 auto;  /* Center the form */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+h2 {   /* Center the h2 */
+    text-align: center; 
+    margin-bottom: 20px; /* Add some space below the title */
+}
+
+/* Label styling */
+label {
+    display: block; /* Makes labels stack on top of inputs */
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 12px); /* Adjust width to account for padding and border */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    margin-bottom: 10px;
+}
+
+/* Select element styling */
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    appearance: none; /* Remove default arrow in some browsers */
+    background: url("dropdown_arrow.png") no-repeat right center; /* Optional dropdown arrow image */
+    padding-right: 25px; /* Adjust padding to accommodate arrow */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green */
+}
